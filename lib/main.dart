@@ -18,7 +18,7 @@ class CardPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Meu Cartão de Visita'),
+        title: Text('Cartão de Visita'),
       ),
       body: Center(
         child: Card(
@@ -34,11 +34,11 @@ class CardPage extends StatelessWidget {
                 ),
                 SizedBox(height: 10.0),
                 Text(
-                  'Seu Nome',
+                  'Rafaela',
                   style: TextStyle(fontSize: 20.0, fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  'Seu Cargo',
+                  'Tecnico em Informatica',
                   style: TextStyle(fontSize: 16.0, color: Colors.grey),
                 ),
                 SizedBox(height: 20.0),
@@ -48,11 +48,11 @@ class CardPage extends StatelessWidget {
                 ),
                 SizedBox(height: 10.0),
                 Text(
-                  'Email: seuemail@example.com',
+                  'Email: rafaelasimoes2203@gmail.com',
                   style: TextStyle(fontSize: 14.0),
                 ),
                 Text(
-                  'Telefone: (123) 456-7890',
+                  'Telefone: (37) 98812-3456',
                   style: TextStyle(fontSize: 14.0),
                 ),
               ],
